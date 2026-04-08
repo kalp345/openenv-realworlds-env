@@ -1,0 +1,16 @@
+name: realworld-openenv
+version: 1.0
+description: Real-world task simulation
+
+observation_space:
+  type: object
+
+action_space:
+  type: object
+
+reward_range: [0, 1]
+
+tasks:
+  - email_triage
+  - data_cleaning
+  - code_review
